@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar a {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: skyblue !important;
+}
+
+.active_link {
+  font: bold;
+  border-bottom: 1px solid black;
+}
+
+.dude {
+  display: grid;
+  place-items: center;
+}
+
+#but {
+  border-radius: 30px;
+  letter-spacing: 1px;
+}
+
+.card img {
+  height: 350px;
+
+  background-position: center;
+  background-size: cover;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
